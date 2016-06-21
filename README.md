@@ -8,9 +8,9 @@ To run locally simply do:
 
 ```
 docker run --rm -p 4567:4567 -e AWS_ACCESS_KEY_ID=sdfsdf*****2334 \
-  -e AWS_SECRET_ACCESS_KEY=sfdfsd****234
-  -e DEFAULT_BUCKET=mycompany-billing
-  -e DEFAULT_ACCOUNT=1234567890
+  -e AWS_SECRET_ACCESS_KEY=sfdfsd****234 \
+  -e DEFAULT_BUCKET=mycompany-billing \
+  -e DEFAULT_ACCOUNT=1234567890 \
   umweltdk/resource-cost
 ```
 
